@@ -1,4 +1,4 @@
-# TITULO
+# TP1
 _Si resolvió correctamente los puntos ii y iii notará que el resultado es el mismo._ 
 _¿a qué se debe?_ **R:** Se debe a que la direccion que almacena el puntero es la direccion de la variable.
 _¿Qué obtiene en el punto 4?_ **R:** Otra direccion de memoria.

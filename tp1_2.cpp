@@ -28,11 +28,11 @@ void MostrarOrdenados (int a, int b) {
 }
 
 int main() {
-    int num1 = 10, num2 = 6;
-    //printf("%d", Cuadrado(num1));
-    //CuadradoVoid(&num1); printf("%d", num1);
-    //MostrarDireccion(&num1);
-    //Invertir(&num1, &num2); printf("%d    %d", num1 , num2);
+    int num1 = 20, num2 = 6;
+    printf("%d", Cuadrado(num1));
+    CuadradoVoid(&num1); printf("%d", num1);
+    MostrarDireccion(&num1);
+    Invertir(&num1, &num2); printf("%d    %d", num1 , num2);
     //Ordenar(&num1, &num2); printf("%d    %d", num1 , num2);
     //MostrarOrdenados(num1 ,num2);
     getchar();

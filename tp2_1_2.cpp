@@ -5,12 +5,18 @@
 
 int main () {
     int f,c;
-    double mt[N][M];
-    
-    for(f = 0;f<N; f++) {
-        for(f = 0;f<N; f++) {
+    double mt[N][M], * pMt = &mt[N][M];
 
-            printf("%lf ", *(mt+f));
+    for(f = 0;f<N; f++) {
+        for(c = 0;c<M; c++) {
+            *(pMt + (f * M + c)) = f * M + c;
+        }
+    }
+
+    for(f = 0;f<N; f++) {
+        for(c = 0;c<M; c++) {
+
+            printf("%lf ", *(pMt + (f * M + c)));
         }
         printf("\n");
     }
